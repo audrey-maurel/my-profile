@@ -1,0 +1,90 @@
+/*Colors and fonts */
+body {
+  background: #EEFFF6;
+  color: #1C1C1C;
+  font-family: David;
+  font-size: 21px;
+}
+
+h1, h2{
+  font-family: bahnsschrift; 	
+}
+
+h1 {
+  color: #CC0000; 
+  font-size: 45px;
+}
+
+h2{
+  color: #005a78; 
+  font-size: 32px; 
+  font-weight: normal;
+}
+
+a{
+  text-decoration: none;
+  color: #CC0000;
+}
+a:hover{
+  color: #00ab1a;
+}
+
+
+/* Custom design with class */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-widht: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-widht: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+.card-white {
+  background-color: white;
+  padding: 18px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+} 
+
+.img-circle {
+  border-radius: 40px;
+}
+
+.btn-red {
+  background-color: #f7e302;
+  padding: 8px 20px;
+  border-radius: 4px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+}
+.list-inline i:hover {
+  color: black;
+}
+
+/* Design adjustements with id */
+#introduction p {
+  margin-bottom: 40px;
+}
+
+
